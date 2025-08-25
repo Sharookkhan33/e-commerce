@@ -1,0 +1,214 @@
+/* styles/custom.css */
+
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  .list-group {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .button-danger {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .button-danger:hover {
+    background-color: darkred;
+  }
+  .product-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 10px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .button-primary {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  .logout{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .button-primary:hover {
+    background-color: darkblue;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  .home-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .product-card {
+    width: 250px; /* Increased width for better layout */
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .product-image {
+    width: 100%;
+    height: 180px; /* Adjusted height for better visibility */
+    object-fit: contain; /* Ensures image covers the area neatly */
+    border-radius: 5px;
+    background-color: #f8f8f8;
+  }
+  
+  .product-info {
+    flex-grow: 1; /* Pushes buttons to the bottom */
+    width: 100%;
+    padding: 10px 0;
+  }
+  
+  .product-title {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  .product-price {
+    font-size: 18px;
+    color: #28a745;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .product-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .product-card a,
+  .add-to-cart-btn {
+    flex: 1; /* Equal width for both buttons */
+    padding: 8px 12px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .product-card a {
+    background: #007bff;
+    color: #fff;
+  }
+  
+  .product-card a:hover {
+    background: #0056b3;
+  }
+  
+  .add-to-cart-btn {
+    background: #ff6600;
+    color: white;
+  }
+  
+  .add-to-cart-btn:hover {
+    background: #e65c00;
+  }
+  
+  .button-primary {
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .button-primary:hover {
+    background-color: darkblue;
+  }
+  .product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  
+ 

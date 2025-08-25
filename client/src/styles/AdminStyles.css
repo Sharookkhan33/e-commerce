@@ -1,0 +1,137 @@
+/* Admin Panel Styles */
+.admin-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.admin-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Table Styling */
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #f9f9f9;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.admin-table th, .admin-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.admin-table th {
+  background: #007bff;
+  color: white;
+}
+
+.admin-table tr:hover {
+  background: #f1f1f1;
+}
+
+/* Product Image */
+.admin-product-image {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+/* Buttons */
+.edit-btn, .delete-btn, .add-product-btn, .save-btn {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.3s ease-in-out;
+}
+
+/* Button Colors */
+.edit-btn {
+  background: #f0a523;
+  color: white;
+  margin-top: 2px;
+  margin-bottom: 3px;
+  font-size: 12px;
+}
+
+.delete-btn {
+  background: #e53935;
+  color: white;
+  
+  font-size: 12px;
+}
+
+.delete-btn {
+  background: #e53935;
+  color: white;
+}
+
+.add-product-btn {
+  background: #28a745;
+  color: white;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.save-btn {
+  background: #007bff;
+  color: white;
+}
+
+/* Button Hover Effects */
+.edit-btn:hover {
+  background: #e68900;
+}
+
+.delete-btn:hover {
+  background: #c62828;
+}
+
+.add-product-btn:hover {
+  background: #218838;
+}
+
+.save-btn:hover {
+  background: #0056b3;
+}
+
+/* Form Styling */
+.admin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.admin-form label {
+  font-weight: bold;
+}
+
+.admin-form input, 
+.admin-form textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.admin-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+  

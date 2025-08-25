@@ -1,0 +1,109 @@
+.payment-form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-input {
+    margin: 15px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .error-text {
+    color: red;
+  }
+  
+  .success-text {
+    color: green;
+  }
+  
+  button {
+    background: #2efd5b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /* Checkout Container */
+.checkout-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  /* Title */
+  .checkout-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Input Fields */
+  .checkout-container input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Card Input */
+  .checkout-container .StripeElement {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #f9f9f9;
+    margin-top: 10px;
+  }
+  
+  /* Button */
+  .checkout-container button {
+    width: 100%;
+    padding: 12px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .checkout-container button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .checkout-container button:hover {
+    background: #218838;
+  }
+  
+  /* Error & Success Messages */
+  .checkout-container p {
+    font-size: 16px;
+    margin-top: 15px;
+  }
+  
+  .checkout-container p[style*="red"] {
+    color: red;
+  }
+  
+  .checkout-container p[style*="green"] {
+    color: green;
+  }
+  

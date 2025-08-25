@@ -1,0 +1,122 @@
+/* Product Grid - Ensures 4 Cards Per Row */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 cards per row */
+    gap: 15px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  /* Product Card */
+  .product-card {
+    width: 100%; /* Automatically adjust inside the grid */
+    max-width: 220px; /* Slightly bigger than before */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Hover Effect */
+  .product-card:hover {
+    transform: translateY(-3px);
+  }
+  
+  /* Product Image - Full View */
+  .product-image {
+    width: 100%;
+    height: 160px; /* Visible and proportional */
+    object-fit: contain ; /* Prevents cropping */
+    border-radius: 5px;
+    background-color: #f8f8f8;
+  }
+  
+  /* Product Info */
+  .product-info {
+    width: 100%;
+    padding: 5px 0;
+  }
+  
+  /* Product Title */
+  .product-title {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin: 5px 0;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  /* Product Price */
+  .product-price {
+    font-size: 15px;
+    color: #28a745;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  /* Buttons */
+  .product-buttons {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  /* Button Styling */
+  .product-card a,
+  .add-to-cart-btn {
+    flex: 1;
+    padding: 6px 8px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  /* View Details Button */
+  .product-card a {
+    background: #007bff;
+    color: #fff;
+  }
+  
+  .product-card a:hover {
+    background: #0056b3;
+  }
+  
+  /* Add to Cart Button */
+  .add-to-cart-btn {
+    background: #ff6600;
+    color: white;
+  }
+  
+  .add-to-cart-btn:hover {
+    background: #e65c00;
+  }
+  
+  /* Responsive - 2 Cards per Row on Small Screens */
+  @media (max-width: 768px) {
+    .product-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  /* Responsive - 1 Card per Row on Mobile */
+  @media (max-width: 480px) {
+    .product-grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
