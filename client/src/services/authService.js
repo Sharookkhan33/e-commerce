@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://e-commerce1-wd40.onrender.com/api/users";
+const API_URL = "https://e-commerce-7xtp.onrender.com/api/users";
 
 // Register User
 export const register = async (userData) => {

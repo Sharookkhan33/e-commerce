@@ -12,7 +12,7 @@ const app = express();
 app.use(express.json());
 const allowedOrigins = [
   "http://localhost:3000",
-  "https://e-commerce-55o5nf51x-mohammed-sharook-khan-s-ss-projects.vercel.app"
+  "https://e-commerce-psi-orpin.vercel.app"
 ];
 
 app.use(cors({

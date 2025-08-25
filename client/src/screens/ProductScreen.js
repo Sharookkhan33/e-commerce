@@ -12,7 +12,7 @@ const ProductScreen = () => {
   useEffect(() => {
     const fetchProduct = async () => {
       try {
-        const { data } = await axios.get(`https://e-commerce1-wd40.onrender.com/api/products/${id}`);
+        const { data } = await axios.get(`https://e-commerce-7xtp.onrender.com/api/products/${id}`);
         setProduct(data);
       } catch (error) {
         console.error("Error fetching product details", error);

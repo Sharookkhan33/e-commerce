@@ -8,7 +8,7 @@ const HomeScreen = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const { data } = await axios.get("https://e-commerce1-wd40.onrender.com/api/products");
+        const { data } = await axios.get("https://e-commerce-7xtp.onrender.com/api/products");
         setProducts(data);
       } catch (error) {
         console.error("Error fetching products", error);
